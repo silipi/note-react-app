@@ -3,8 +3,10 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-      <a className="navbar-brand mx-5 float-left" href="#" >NoteApp</a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm mb-5">
+      <Link href="/">
+        <a className="navbar-brand mx-5 float-left">NoteApp</a>
+      </Link>
 
       <ul className="navbar-nav mr-auto collapse navbar-collapse float-right">
         <li className="nav-item active">

@@ -1,12 +1,10 @@
-import Layout from '../components/Layout'
-import CreateNote from '../components/CreateNote'
-import NoteList from '../components/NoteList'
+import App from '../components/App'
+import Layout from '../components/Layout';
 
 function Home() {
   return (
     <Layout>
-      <CreateNote />
-      <NoteList />
+      <App />
     </Layout>
   )
 }
